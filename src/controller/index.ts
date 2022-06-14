@@ -8,7 +8,7 @@ import {
   WSClientSetUsernameBody, 
   WSClientTakeShotBody, 
   WSServerMessage
-} from "src/types";
+} from "../types";
 import WebSocket from "ws";
 
 export const handleMessage = async (ws: WebSocket.WebSocket, data: WSClientMessage) => {

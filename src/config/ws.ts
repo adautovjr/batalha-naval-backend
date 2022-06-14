@@ -4,9 +4,8 @@ import url from "url"
 import fs from 'fs/promises'
 import { join } from 'path';
 
-import { handleMessage } from "src/controller";
-import { WSServerMessage, WSClientMessage, WSServerConnectionMessage, WSServerFailedMessage } from "src/types";
-import { Client, Session } from "src/types";
+import { handleMessage } from "../controller";
+import { WSServerMessage, WSClientMessage, WSServerConnectionMessage, WSServerFailedMessage, Client, Session } from "../types";
 
 let clients: Client[] = []
 let sessions: Session[] = []

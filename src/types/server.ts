@@ -4,7 +4,7 @@ import { v4 as uuid } from 'uuid';
 import { WSServerMessageBody, WSServerMessageSessionBody, WSServerMessageType } from "./message";
 import { WebSocket } from "ws";
 import { failMessage, saveSession, sendMessage } from "@config/ws";
-import { getTileNumberFromVector2 } from "src/helpers";
+import { getTileNumberFromVector2 } from "../helpers";
 
 export class Session {
   id: string

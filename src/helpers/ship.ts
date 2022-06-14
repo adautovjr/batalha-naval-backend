@@ -1,4 +1,4 @@
-import { Vector2 } from "src/types";
+import { Vector2 } from "../types";
 
 export const getVector2FromTileNumber = (tileNumber: number): Vector2 => {
   const x = tileNumber % 10;
